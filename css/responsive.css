@@ -53,8 +53,12 @@
 	list-style: none;
 }
 #partners .partners-holder ul li{
-	display: inline-block;
+	float: right;
+	display: table;
 	min-height: 70px;
+}
+#partners .partners-holder ul li div{
+	display: table-cell;
 }
 #partners .partners-holder ul li a{
 	vertical-align: middle;
