@@ -115,7 +115,9 @@ input[type="submit"]{
 .clearfix:before, .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
 .menu-section{
-	display: none;
+	/*display: none;*/
+	z-index: -1;
+	left: 2000px;
 }
 #wrapper{
 	width: 100%;
@@ -196,6 +198,7 @@ mark{
 	top: 0;
 	width: 100%;
 	z-index: 600;
+	display: none;
 }
 .menu-section a{color: #fff;}
 .login-btn{
@@ -450,7 +453,9 @@ mark{
 		width: 100%;
 	}
 	#hero-block .image-part img{width: 100%;}
-
+	.menu-opened #wrapper{opacity: 0 !important;}
+	.menu-opened .nav-overlay{display: none !important;}
+	body.menu-opened{background: #25af40; height: auto;}
 }
 @media only screen and (max-width: 490px){
 	.logo {
