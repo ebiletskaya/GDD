@@ -4,9 +4,9 @@ jQuery(document).ready(function () {
 	jQuery('.menu-btn').click(function () {
 		jQuery('body').toggleClass('menu-opened');
 		jQuery('.menu-section').slideDown();
+		fix_sizes();
 		jQuery('.nav-overlay').animate({'bottom':'0'});
 		setTimeout(function(){
-			fix_sizes();
 			if(jQuery(window).width()<=767&&jQuery('.menu-section').height()>=jQuery(window).height()){
 				console.log(jQuery('.menu-section').height());
 				jQuery('body').css({'height':jQuery('.menu-section').height()+'px'});
