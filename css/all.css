@@ -236,6 +236,9 @@ p{margin: 0 0 20px;}
 	background: #25af40;
 	max-width: 270px;
 	text-align: center;
-	box-sizing: border-box;
-	border: 3px solid #23a53c;
+	box-sizing: content-box;
+	border: 20px solid #25af40;
+}
+.circle-block:hover{
+	border: 20px solid #057810;
 }
