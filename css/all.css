@@ -29,7 +29,7 @@
 body, html {
 	width:100%;
 	height:100%;
-	font: 20px/1.5 'Open Sans Hebrew', Arial, Helvetica, sans-serif;
+	font: 20px/1.52 'Open Sans Hebrew', Arial, Helvetica, sans-serif;
 	color: #666;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust: none;
@@ -122,10 +122,12 @@ input[type="submit"]{
 }
 h1{
 	text-align: center;
-	font: 36px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	font: 36px/42px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	letter-spacing: -1px;
 	margin: 0 0 35px;
 	color: #bf2b5f;
 }
+p{margin: 0 0 20px;}
 #header{
 	margin: 0 -98px;
 	padding: 0 98px 0 0;
@@ -206,4 +208,24 @@ h1{
 #hero-block .image-part{
 	float: left;
 	width: 50.07%;
+}
+#about-section{
+	text-align: center;
+	margin: 0 0 24px;
+}
+#about-section h1{margin: 0 0 9px;}
+.scroll-down{
+	display: block;
+	margin: 0 auto;
+	width: 30px;
+	height: 16px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url("../images/arrow-down.png") no-repeat;
+}
+#about-section .scroll-down{margin-top: 25px;}
+#how-to-participate{
+	margin: 0 -9999px;
+	padding: 45px 9999px 30px;
+	background: #eef0f1;
 }
