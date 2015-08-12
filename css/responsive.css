@@ -59,6 +59,7 @@
 }
 #partners .partners-holder ul li div{
 	display: table-cell;
+	vertical-align: middle;
 }
 #partners .partners-holder ul li a{
 	vertical-align: middle;
