@@ -15,12 +15,14 @@ jQuery(document).ready(function () {
 		return false;
 	});
 	jQuery('.menu-section .close').click(function () {
-		jQuery('body').removeClass('menu-opened');
 		jQuery('.menu-section').slideUp();
 		jQuery('.nav-overlay').animate({'bottom':'100%'});
 		if(jQuery(window).width()<=767&&jQuery('.menu-section').height()>=jQuery(window).height()){
 			jQuery('body').css({'height':'auto'});
 		}
+		setTimeout(function(){
+			jQuery('body').removeClass('menu-opened');
+		},500)
 	});
 	var circleHeight = jQuery('.circle-block').width();
 	jQuery('.circle-block').css({'height':circleHeight+'px'});
