@@ -1,4 +1,7 @@
-.menu-section .container{color: #fff;}
+.menu-section .container{
+	color: #fff;
+	padding-bottom: 20px;
+}
 .menu-section .container .row:before{
 	content: "";
 	clear: both;
@@ -230,6 +233,11 @@
 	margin: 0 2px 0 0;
 }
 @media only screen and (max-width: 1200px){
+	.menu-section .container .social-networks {width: 324px;}
+	.menu-section .container .social-networks li{
+		width: 25%;
+		margin: 0;
+	}
 	#partners .partners {
 	    position: relative;
 	    box-sizing: border-box;
@@ -241,6 +249,11 @@
     .social-networks li {margin: 0 0 0 10px;}
 }
 @media only screen and (max-width: 992px){
+	.menu-section .container .column h3{
+		line-height: 36px;
+		margin-bottom: 10px;
+	}
+	.menu-section .container .column{margin-top: 15px;}
 	.footer-menu{
 		width: 33.3333%;
 		padding: 15px 0;
@@ -264,6 +277,14 @@
 	    padding: 15px 9999px;
 	    box-sizing: content-box;
     }
+}
+@media only screen and (max-width: 767px){
+	.menu-section .container .column{
+		border: none;
+		margin: 0;
+	}
+	.menu-section .container .column ul li{margin-bottom: 3px;}
+    .menu-section .container .social-networks{padding: 30px 0 0;}
 }
 @media only screen and (max-width: 639px){
 	.contact-info .tel {margin-bottom: 5px;}
@@ -313,6 +334,9 @@
 	    padding: 0 15px;
 	    margin-bottom: 30px;
     }
+}
+@media only screen and (max-width: 380px){
+	.menu-section .container .social-networks{width: 100%;}
 }
 @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 144dpi){
 	
