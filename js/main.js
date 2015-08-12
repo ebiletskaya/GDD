@@ -22,24 +22,21 @@ jQuery(document).ready(function () {
 			jQuery('body').css({'height':'auto'});
 		}
 	});
-
-	jQuery("#partners").responsive_slides({scrollHolder: "div.partners-holder", step: 2});
-
 	var circleHeight = jQuery('.circle-block').width();
 	jQuery('.circle-block').css({'height':circleHeight+'px'});
 
 	jQuery('a.scroll-down').click(function(){
+		console.log('dd')
 		var scroll_down=jQuery(jQuery(this).attr('href')).offset().top;
-		jQuery('html,body').animate({scrollTop:scroll_down+'px'}, 1000);
+		jQuery('html,body,#wrapper').animate({scrollTop:scroll_down+'px'}, 1000);
 		return false;
 	});
 	jQuery(window).scroll();
 	fix_sizes();
-	jQuery(window).resize();
+	jQuery("#partners").responsive_slides({scrollHolder: "div.partners-holder", step: 2});
 });
 
 jQuery(window).load(function(){
-	jQuery(window).resize();
 	fix_sizes();
 });
 jQuery(window).resize(function(){
