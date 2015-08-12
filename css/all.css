@@ -392,7 +392,7 @@ mark{
 	display: inline-block;
 	background: url("../images/ico-twitter.png") no-repeat 100% 50%;
 }
-.menu-section .close{margin: 32px 32px 32px -83px !important;}
+.menu-section .close{margin: 25px 32px 32px -83px !important;}
 @media only screen and (max-width: 1366px){
 	#header {
 		margin: 0;
