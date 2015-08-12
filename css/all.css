@@ -154,7 +154,7 @@ mark{
 }
 .menu-btn{
 	float: left;
-	color: #fff;
+	color: #fff !important;
 	width: 168px;
 	text-align: center;
 	font: 26px/80px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
@@ -174,6 +174,28 @@ mark{
 	padding: 0 0 0 43px;
 	background: url("../images/ico-menu.png") no-repeat 0 50%;
 }
+.nav-overlay{
+	position: fixed;
+	bottom: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #25af40;
+	z-index: 500;
+}
+.menu-opened #wrapper{
+	height: 100%;
+	padding: 0 17px 0 0;
+}
+.menu-section{
+	position: absolute;
+	left: 0;
+	color: #fff;
+	top: 0;
+	width: 100%;
+	z-index: 600;
+}
+.menu-section a{color: #fff;}
 .login-btn{
 	float: left;
 	border-radius: 16px;
@@ -238,7 +260,7 @@ mark{
 }
 .circle-block{
 	border-radius: 50%;
-	margin: 0 0 45px;
+	margin: 0 auto 45px;
 	background: #25af40;
 	max-width: 270px;
 	text-align: center;
@@ -385,4 +407,63 @@ mark{
 	.circle-block .holder {padding: 75px 25px 50px;}
 	.circle-block .participate-btn{bottom: 35px;}
 	.twitters-list li {padding: 19px 21px 17px 80px;}
+}
+@media only screen and (max-width: 991px){
+	.logo{
+		width: 150px;
+		height: 150px;
+		background-size: cover;
+		margin: 5px 15px -196px 0;
+	}
+	.menu-btn{line-height: 60px;}
+	.login-btn{margin: 11px 0 0;}
+	body{font-size: 16px;}
+	#hero-block .text-part {padding: 111px 45px 0px 20px;}
+	#hero-block .text-part .days-left{font-size: 16px; line-height: 27px;}
+	#hero-block .text-part h1 {
+		font-size: 40px;
+		line-height: 34px;
+	}
+	#hero-block {margin: 0px 0px 25px;}
+	h1{font: 28px/33px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;}
+	#about-section .scroll-down {margin-top: 10px;}
+	.circle-block .participate-btn{bottom: 48px;}
+	.twitters-list{font-size: 14px;}
+}
+@media only screen and (max-width: 800px){
+	#wrapper > .container{width: auto;}
+	#header {
+		margin: 0 -15px;
+	}
+	#hero-block {margin: 0 -15px 30px;}
+}
+@media only screen and (max-width: 767px){
+	#hero-block .text-part{
+		float: none;
+		width: 100%;
+	}
+	#hero-block .image-part{
+		float: none;
+		width: 100%;
+	}
+	#hero-block .image-part img{width: 100%;}
+
+}
+@media only screen and (max-width: 490px){
+	.logo {
+		width: 130px;
+		height: 130px;
+	}
+	.menu-btn{
+		width: 165px;
+	}
+	.login-btn{
+		float: left;
+		clear: left;
+		margin: 10px 5px;
+	}
+	#hero-block .text-part {padding: 35px 45px 0px 20px;}
+	body{font-size: 14px;}
+	h1{font: 24px/30px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;}
+	.circle-block{max-width: 240px; margin: 0 auto 25px;}
 }
