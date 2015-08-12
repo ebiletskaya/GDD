@@ -365,6 +365,24 @@ mark{
 	display: inline-block;
 	background: url("../images/ico-twitter.png") no-repeat 100% 50%;
 }
+@media only screen and (max-width: 1366px){
+	#header {
+		margin: 0;
+		padding: 0;
+	}
+	.logo{margin-right: 15px;}
+	#hero-block {margin: 0 0 55px;}
+	#hero-block .text-part {padding: 125px 45px 0px 20px;}
+}
 @media only screen and (max-width: 1170px){
 	#wrapper > .container{padding: 0 15px;}
+}
+@media only screen and (max-width: 1199px){
+	#hero-block .text-part h1 {
+		font-size: 56px;
+		line-height: 48px;
+	}
+	.circle-block .holder {padding: 75px 25px 50px;}
+	.circle-block .participate-btn{bottom: 35px;}
+	.twitters-list li {padding: 19px 21px 17px 80px;}
 }
