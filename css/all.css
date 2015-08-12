@@ -116,6 +116,16 @@ input[type="submit"]{
 .menu-section{
 	display: none;
 }
+#wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+	font: 36px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	margin: 0 0 35px;
+	color: #bf2b5f;
+}
 #header{
 	margin: 0 -98px;
 	padding: 0 98px 0 0;
