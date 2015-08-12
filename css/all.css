@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 /* ======================
  CUSTOM FONTS STYLES
 ====================== */
@@ -135,6 +136,7 @@ mark{
 	font-weight: 600;
 	color: #666;
 }
+.arabic{font-family: 'Droid Arabic Kufi', sans-serif;}
 #header{
 	margin: 0 -98px;
 	padding: 0 98px 0 0;
@@ -407,6 +409,7 @@ mark{
 	.circle-block .holder {padding: 75px 25px 50px;}
 	.circle-block .participate-btn{bottom: 35px;}
 	.twitters-list li {padding: 19px 21px 17px 80px;}
+	.menu-opened #wrapper{padding: 0;}
 }
 @media only screen and (max-width: 991px){
 	.logo{
