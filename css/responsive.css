@@ -1,5 +1,80 @@
-@media only screen and (max-width: 1000px){
-
+#photo-gallery{
+	background: #eef0f1;
+	margin: 0 -9999px;
+	padding: 41px 9999px 30px;
+	text-align: center;
+}
+#photo-gallery h1{margin-bottom: 38px;}
+#photo-gallery .gallery-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#photo-gallery .gallery-list li h2{
+	font: 26px/26px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	margin: 0;
+	letter-spacing: 1px;
+}
+#photo-gallery .gallery-list li span{
+	font-size: 16px;
+	line-height: 24px;
+	display: block;
+	margin-bottom: 29px;
+}
+#photo-gallery .gallery-list li img{
+	width: 100%;
+	margin-bottom: 13px;
+}
+.btn{
+	font: 26px/48px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
+	display: inline-block;
+	margin: 0 auto 58px;
+	padding: 0 28px;
+	text-decoration: none;
+	color: #fff;
+	background: #666;
+	border-radius: 4px;
+}
+.btn:hover{
+	background: #474747;
+	color: #fff;
+}
+.btn:active{
+	background: #383838;
+	color: #fff;
+}
+.btn:visited{color: #fff;}
+#partners{
+	padding: 65px 0 100px;
+}
+#partners .partners-holder ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#partners .partners-holder ul li{
+	display: inline-block;
+	min-height: 70px;
+}
+#partners .partners-holder ul li a{
+	vertical-align: middle;
+}
+#partners .partners-holder ul li a img{vertical-align: middle;}
+@media only screen and (max-width: 480px){
+	#photo-gallery{padding: 20px 9999px 15px;}
+	#photo-gallery h1{
+		font-size: 28px;
+		line-height: 28px;
+		margin-bottom: 20px;
+	}
+	#photo-gallery .gallery-list li span{margin-bottom: 15px;}
+	#photo-gallery .gallery-list li img{margin-bottom: 5px;}
+    .btn{
+	    font-size: 20px;
+	    line-height: 36px;
+	    padding: 0 15px;
+	    margin-bottom: 30px;
+    }
 }
 @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 144dpi){
 	
