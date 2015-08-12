@@ -34,12 +34,12 @@ body, html {
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust: none;
 	margin: 0;
-	background: #f4f4f4;
+	background: #fff;
 	direction: rtl;
 }
-a{color: #383838; text-decoration:none; outline: none;}
-a:hover{text-decoration:none; color: #368ed0;}
-a:active{color: #2570a8;}
+a{color: #5d5d5d; text-decoration:underline; outline: none;}
+a:hover{color: #5d5d5d; text-decoration:none;}
+a:active{color: #5d5d5d; text-decoration: none;}
 a img, fieldset { border:none;}
 img{
 	vertical-align:top;
@@ -113,4 +113,55 @@ input[type="submit"]{
 
 .clearfix:before, .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
-
+.menu-section{
+	display: none;
+}
+#header{
+	margin: 0 -98px;
+	padding: 0 98px 0 0;
+}
+.logo{
+	width: 171px;
+	height: 172px;
+	float: right;
+	background: url("../images/logo.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 0 -96px;
+}
+.logo a{
+	display: block;
+	height: 100%;
+}
+.menu-btn{
+	float: left;
+	color: #fff;
+	width: 168px;
+	text-align: center;
+	font: 26px/80px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
+	background: #25af40;
+	text-decoration: none;
+	margin: 0 26px 0 0;
+}
+.menu-btn:hover{
+	background: #159328;
+	color: #fff;
+}
+.menu-btn:active{
+	background: #057810;
+	color: #fff;
+}
+.menu-btn span{
+	padding: 0 0 0 43px;
+	background: url("../images/ico-menu.png") no-repeat 0 50%;
+}
+.login-btn{
+	float: left;
+	border-radius: 16px;
+	border: 1px solid #707070;
+	padding: 0 15px;
+	font: 20px/35px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
+	text-decoration: none;
+	margin: 23px 0 0;
+	color: #666 !important;
+}
