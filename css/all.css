@@ -236,9 +236,53 @@ p{margin: 0 0 20px;}
 	background: #25af40;
 	max-width: 270px;
 	text-align: center;
-	box-sizing: content-box;
-	border: 20px solid #25af40;
+	position: relative;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.33;
 }
-.circle-block:hover{
+.circle-block:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+}
+.circle-block:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.circle-block:hover:before{
 	border: 20px solid #057810;
+	padding: 0;
+}
+.circle-block .holder{padding: 105px 25px 70px;}
+.circle-block h2{
+	font: 36px/1 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	margin: 0 0 4px;
+	letter-spacing: -1px;
+}
+.circle-block .participate-btn{
+	position: absolute;
+	bottom: 49px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	left: 0;
+	width: 100%;
+	text-align: center;
 }
