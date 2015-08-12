@@ -137,7 +137,7 @@ h1{
 	background: url("../images/logo.png") no-repeat;
 	text-indent: -9999px;
 	overflow: hidden;
-	margin: 0 0 -96px;
+	margin: 5px 0 -97px;
 }
 .logo a{
 	display: block;
@@ -174,4 +174,36 @@ h1{
 	text-decoration: none;
 	margin: 23px 0 0;
 	color: #666 !important;
+}
+#hero-block{
+	margin: 0 -98px 55px;
+	background: #bf2b5f;
+	color: #fff;
+	overflow: hidden;
+}
+#hero-block .text-part{
+	float: right;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 125px 96px 0 60px;
+	width: 49.92%;
+}
+#hero-block .text-part h1{
+	color: #fff;
+	font-size: 76px;
+	text-align: right;
+	line-height: 66px;
+	margin: 0 -3px 20px 0;
+}
+#hero-block .text-part .days-left{
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	padding: 0 32px 0 0;
+	background: url("../images/ico-clock.png") no-repeat 100% 50%;
+	margin: 0 0 6px;
+}
+#hero-block .image-part{
+	float: left;
+	width: 50.07%;
 }
