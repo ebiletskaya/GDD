@@ -1,3 +1,47 @@
+.menu-section .container{color: #fff;}
+.menu-section .container .row:before{
+	content: "";
+	clear: both;
+	display: block;
+}
+.menu-section .close{
+	margin: 32px;
+	padding: 0 0 0 32px;
+	opacity: 1;
+	text-decoration: none;
+	font: 26px/26px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
+	background: url("../images/bg-close-btn.png") no-repeat 0 6px;
+}
+.menu-section .close:hover{color: #fff;}
+.menu-section .container .social-networks {
+    width: 28.759%;
+    padding: 60px 0px 0px;
+    margin: 0 auto;
+	display: block;
+	float: none;
+}
+.menu-section .container .column{
+	margin-top: 65px;
+	border-right: 1px solid #fff;
+}
+.menu-section .container .column:first-child{border: none;}
+.menu-section .container .column h3{
+	text-align: center;
+	font: 36px/24px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;
+	margin: 0;
+}
+.menu-section .container .column ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu-section .container .column ul li{
+	text-align: center;
+}
+.menu-section .container .column ul li a{
+	text-decoration: none;
+}
+.menu-section .container .column ul li a:hover{text-decoration: underline;}
 #photo-gallery{
 	background: #eef0f1;
 	margin: 0 -9999px;
