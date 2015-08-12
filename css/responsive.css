@@ -153,13 +153,15 @@
 	margin-bottom: -9999px;
 	box-sizing: border-box;
 }
+.contact-info .tel{
+	margin-bottom: 24px;
+	display: block;
+}
 .contact-info .tel a{
 	font-size: 18px;
 	padding: 0 30px 0 0;
-	margin-bottom: 24px;
 	text-decoration: none;
-	display: block;
-	background: url("../images/bg-tel.png") no-repeat 100% 3px;
+	background: url("../images/bg-tel.png") no-repeat 100% 6px;
 }
 .contact-info .tel a:hover{text-decoration: underline;}
 .contact-info h4{
@@ -215,6 +217,9 @@
     }
 }
 @media only screen and (max-width: 639px){
+	.contact-info .tel {margin-bottom: 5px;}
+	#partners{padding: 30px 0;}
+	#partners h1{padding: 0;}
 	.footer-menu{
 		width: 50%;
 		padding: 15px 0 15px 10px;
@@ -240,6 +245,11 @@
     }
 }
 @media only screen and (max-width: 480px){
+	.footer-menu h2 {margin: 0 0 2px;}
+	.contact-info h4{
+		font-size: 26px;
+		line-height: 26px;
+	}
 	#photo-gallery{padding: 20px 9999px 15px;}
 	#photo-gallery h1{
 		font-size: 28px;
