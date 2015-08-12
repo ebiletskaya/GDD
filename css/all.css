@@ -365,3 +365,6 @@ mark{
 	display: inline-block;
 	background: url("../images/ico-twitter.png") no-repeat 100% 50%;
 }
+@media only screen and (max-width: 1170px){
+	#wrapper > .container{padding: 0 15px;}
+}
