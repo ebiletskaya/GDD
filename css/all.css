@@ -146,6 +146,8 @@ mark{
 	font-family: "Source Sans Pro", Arial, Verdana, sans-serif;
 	font-weight: 600;
 	color: #666;
+	direction: ltr;
+	display: inline-block;
 }
 .arabic{font-family: 'Droid Arabic Kufi', sans-serif;}
 #header{
@@ -238,7 +240,7 @@ mark{
 	font-size: 76px;
 	text-align: right;
 	line-height: 66px;
-	margin: 0 -3px 20px 0;
+	margin: 0 -3px 29px 0;
 }
 #hero-block .text-part .days-left{
 	font-weight: bold;
@@ -388,10 +390,12 @@ mark{
 	font-weight: 600;
 	display: block;
 	margin: 0 0 3px;
+	direction: ltr;
 }
 .twitters-list .title a{
 	color: #00acc8;
 	text-decoration: none;
+	direction: ltr;
 }
 .twitters-list p{margin: 0;}
 .twitter-btn{
@@ -555,6 +559,7 @@ mark{
 	color: #fff;
 	font-size: 16px;
 	line-height: 20px;
+	overflow: hidden;
 }
 #footer a{color: #fff;}
 #footer:after{
