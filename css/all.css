@@ -240,7 +240,7 @@ mark{
 	font-size: 76px;
 	text-align: right;
 	line-height: 66px;
-	margin: 0 -3px 29px 0;
+	margin: 0 -3px 30px 0;
 }
 #hero-block .text-part .days-left{
 	font-weight: bold;
@@ -509,8 +509,10 @@ mark{
 #partners{
 	padding: 59px 0 118px;
 	margin: 0 -2px;
+	position: relative;
+	direction: ltr;
 }
-#partners h1{padding-bottom: 44px;}
+#partners h1{padding-bottom: 44px; direction: rtl;}
 #partners .partners{position: relative;}
 #partners .next, #partners .previous{
 	display: block;
@@ -529,20 +531,24 @@ mark{
 	background: url("../images/next.png") no-repeat 0 0;
 }
 #partners .unactive{opacity: 0.3;}
+#partners img{max-width: none;}
 #partners .partners-holder{
 	max-width: 1052px;
 	margin: 0 auto;
+	direction: ltr;
+	overflow: hidden;
 }
 #partners .partners-holder ul{
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	overflow: hidden;
 }
 #partners .partners-holder ul li{
 	float: right;
 	display: table;
 	height: 70px;
-	padding: 0 28px;
+	padding: 0 29px;
 }
 #partners .partners-holder ul li div{
 	display: table-cell;
