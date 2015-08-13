@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 /* ======================
  CUSTOM FONTS STYLES
@@ -24,13 +23,23 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/opensanshebrew-regular-webfont.eot');
+    src: url('../fonts/opensanshebrew-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensanshebrew-regular-webfont.woff') format('woff'),
+    url('../fonts/opensanshebrew-regular-webfont.ttf') format('truetype');
+	url('../fonts/opensanshebrew-regular-webfont.svg#alefregular') format('svg');
+}
 /* ======================
  GENERAL STYLES
 ====================== */
 body, html {
 	width:100%;
 	height:100%;
-	font: 20px/1.52 'Open Sans Hebrew', Arial, Helvetica, sans-serif;
+	font: 20px/1.52 'Open Sans Hebrew', Arial, Verdana, sans-serif;
 	color: #666;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust: none;
