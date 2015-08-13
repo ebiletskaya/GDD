@@ -1,7 +1,7 @@
 #hero-block .text-part a{
 	background: #25af40;
 	border-radius: 4px;
-	padding: 0 35px;
+	padding: 0 25px;
 	font: 24px/49px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
 	display: inline-block;
 	text-decoration: none;
@@ -16,6 +16,12 @@
 	color: #fff;
 }
 @media only screen and (max-width: 1200px){
+	#hero-block .text-part h1{margin-bottom: 13px;}
+	#hero-block .text-part a{
+		line-height: 40px;
+		padding: 0 18px;
+		font-size: 22px;
+	}
 	.menu-section .container .social-networks {width: 324px;}
 	.menu-section .container .social-networks li{
 		width: 25%;
@@ -32,6 +38,7 @@
     .social-networks li {margin: 0 0 0 10px;}
 }
 @media only screen and (max-width: 992px){
+
 	.menu-section .container .column h3{
 		line-height: 36px;
 		margin-bottom: 10px;
@@ -163,11 +170,12 @@
 	.menu-section .close{margin: 15px 32px 32px 32px !important;}
 	.login-btn{margin: 11px 0 0;}
 	body{font-size: 16px;}
-	#hero-block .text-part {padding: 111px 45px 0px 20px;}
+	#hero-block .text-part {padding: 98px 45px 0px 20px;}
 	#hero-block .text-part .days-left{font-size: 16px; line-height: 27px;}
 	#hero-block .text-part h1 {
-		font-size: 40px;
-		line-height: 34px;
+		font-size: 36px;
+		line-height: 30px;
+		margin-bottom: 9px;
 	}
 	#hero-block {margin: 0px 0px 25px;}
 	h1{font: 28px/33px 'Almonidlaaa-Bold', 'Open Sans Hebrew', Arial, sans-serif;}
@@ -183,6 +191,7 @@
 	#hero-block {margin: 0 -15px 30px;}
 }
 @media only screen and (max-width: 767px){
+	#hero-block .text-part a{margin-bottom: 10px;}
 	#hero-block .text-part{
 		float: none;
 		width: 100%;
