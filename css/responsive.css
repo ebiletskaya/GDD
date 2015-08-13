@@ -1,20 +1,3 @@
-#hero-block .text-part a{
-	background: #25af40;
-	border-radius: 4px;
-	padding: 0 25px;
-	font: 24px/49px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
-	display: inline-block;
-	text-decoration: none;
-	color: #fff;
-}
-#hero-block .text-part a:hover{
-	background: #159328;
-	color: #fff;
-}
-#hero-block .text-part a:active{
-	background: #057810;
-	color: #fff;
-}
 @media only screen and (max-width: 1200px){
 	#hero-block .text-part h1{margin-bottom: 13px;}
 	#hero-block .text-part a{

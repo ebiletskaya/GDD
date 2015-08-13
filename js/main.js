@@ -35,10 +35,10 @@ jQuery(document).ready(function () {
 	});
 	jQuery(window).scroll();
 	fix_sizes();
-	jQuery("#partners").responsive_slides({scrollHolder: "div.partners-holder", step: 2});
 });
 
 jQuery(window).load(function(){
+	jQuery("#partners").responsive_slides({scrollHolder: "div.partners-holder", step: 2});
 	fix_sizes();
 });
 jQuery(window).resize(function(){

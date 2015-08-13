@@ -250,6 +250,23 @@ mark{
 	background: url("../images/ico-clock.png") no-repeat 100% 50%;
 	margin: 0 0 6px;
 }
+#hero-block .text-part a.btn-green{
+	background: #25af40;
+	border-radius: 4px;
+	padding: 0 25px;
+	font: 24px/49px 'Almonidlaaa-Regular', 'Open Sans Hebrew', Arial, sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+#hero-block .text-part a.btn-green:hover{
+	background: #159328;
+	color: #fff;
+}
+#hero-block .text-part a.btn-green:active{
+	background: #057810;
+	color: #fff;
+}
 #hero-block .image-part{
 	float: left;
 	width: 50.07%;
